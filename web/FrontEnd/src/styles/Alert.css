@@ -1,0 +1,26 @@
+.alert{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80dvw;
+    max-width: 500px;
+    height: 6dvh;
+    justify-content: center;
+    gap: 20px;
+    background-color: #ffffff21;
+    border-radius: 15px;
+    margin: 0px auto;
+}
+
+.alert img{
+    width: 30px;
+}
+
+.error{
+    background-color: #ff66661f;
+    
+}
+
+.success{
+    background-color: #66ff661f;
+}

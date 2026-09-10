@@ -1,0 +1,21 @@
+.soonMain{
+    display: flex;
+    flex-direction: column;
+    width: 100dvw;  
+    text-align: center; 
+    gap: 30px;
+}
+
+.relatedLinksDiv{
+    display: flex;
+    justify-content: center;
+    gap:5px;
+}
+.relatedLinksDiv img{
+    width: 22px;
+}
+
+.soonMain h1{
+    font-family: "Agdasima", sans-serif;
+    font-weight: 800;
+}

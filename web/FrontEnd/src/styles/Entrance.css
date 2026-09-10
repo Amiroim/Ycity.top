@@ -1,0 +1,110 @@
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80dvw;
+    max-width: 500px;
+    height: 60dvh;
+    justify-content: space-around;
+    animation: borderColerd 8s linear infinite;
+    background-color: #ffffff21;
+    border: 3px solid transparent;
+    border-radius: 15px;
+    margin: 40px auto;
+}
+
+.soon{
+        font-family: system-ui;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 10px;
+    width: 75dvw;
+    max-width: 450px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.line{
+    width: 35dvw;
+    max-width: 300px;
+    /* height: 1px; */
+    text-align: center;
+    border-top:groove 1px #ffffff4b;
+}
+
+.inputs input,
+.inputs button {
+    padding: 5px;
+    width: 60vw;
+    max-width: 300px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #ffffff41;
+    color: #fff;
+    transition: all 300ms;
+}
+
+button{
+    cursor:pointer;
+}
+
+.inputs input::placeholder{
+    color: #fff;
+}
+
+
+.inputs input:hover,
+.inputs button:hover{
+    box-shadow: 0 0 10px #ffffff;
+}
+
+
+
+.links {
+    display: flex;
+    width: fit-content;
+    text-align: center;
+}
+
+.form a:hover{
+    color: #fff;
+    transition: 300ms;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+@keyframes borderColerd {
+    0% {
+        border-color: #ff0000;
+        box-shadow: 0 0 20px #ff0000;
+    }
+    25% {
+        border-color: #ffcc00;
+        box-shadow: 0 0 20px #ffcc00;
+    }
+    50% {
+        border-color: #00cc00;
+        box-shadow: 0 0 20px #00cc00;
+    }
+    75% {
+        border-color: #0066ff;
+        box-shadow: 0 0 20px #0066ff;
+    }
+    100% {
+        border-color: #ff0000;
+        box-shadow: 0 0 20px #ff0000;
+    }
+}

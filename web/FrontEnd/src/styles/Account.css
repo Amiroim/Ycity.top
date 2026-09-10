@@ -1,0 +1,117 @@
+.profile{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.profileName{
+    border: solid transparent;
+    text-align: center;
+    place-content: center;
+    width: 127px;
+    height: 127px;
+    margin-bottom: 10px;
+    border-radius: 100px;
+    margin: 20px;
+    animation: textColerd 8s linear infinite;
+}
+
+.names{
+    text-align: center;
+    place-content: center;
+}
+
+.profileName h1{
+    font-size: 50px;
+}
+
+.edits{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    place-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+.profile button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    transition: 300ms;
+    height: 40px;
+    color: #212121;
+    border: none;
+    margin: 1px;
+    gap: 2px;
+    padding: 3px;
+    color: #fff;
+}
+
+.btns{
+    display: flex;
+    gap: 1vw;
+}
+
+.deAcc{
+    width: 60vw;
+    max-width: 400px;
+    background-color: #D2042D;
+    
+}
+.changes{
+    width: 60vw;
+    max-width: 400px;
+    /* width: 29.5vw; */
+    /* max-width: 195px; */
+    background-color: #1B8E2D ;
+}
+
+.changes:hover{
+    border: solid #00ff00 3px;
+    box-shadow: inset 0 0 20px #00cc00,
+                    0 0 5px #00cc00;
+}
+.deAcc:hover{
+    border: solid #ff6666 3px;
+    box-shadow: inset 0 0 20px #ff6666,
+                     0 0 5px #ff6666;
+}
+
+@keyframes textColerd {
+    0% {
+        border-color: #ff0000;
+        box-shadow: 0 0 20px #ff0000
+        , inset 0 0 20px #ff0000;
+        text-shadow: 0 0 20px #ff0000;
+    }
+    25% {
+        border-color: #ffcc00;
+        box-shadow: 0 0 20px #ffcc00,
+        inset 0 0 20px #ffcc00;
+        text-shadow: 0 0 20px #ffcc00;
+    }
+    50% {
+        border-color: #00cc00;
+        box-shadow: 0 0 20px #00cc00,
+        inset 0 0 20px #00cc00;
+        text-shadow: 0 0 20px #00cc00;
+    }
+    75% {
+        border-color: #0066ff;
+        box-shadow: 0 0 20px #0066ff
+        inset 0 0 20px #0066ff;
+        text-shadow: 0 0 20px #0066ff;
+    }
+    100% {
+        border-color: #ff0000;
+        box-shadow: 0 0 20px #ff0000,
+        inset 0 0 20px #ff0000;
+        text-shadow: 0 0 20px #ff0000;
+    }
+}

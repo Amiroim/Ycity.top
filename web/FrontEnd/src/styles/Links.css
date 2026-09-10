@@ -1,0 +1,123 @@
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin:33px auto;
+}
+
+.links * {
+  font-family: "Jost", sans-serif;
+}
+
+
+.game {
+  align-items: anchor-center;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.game img{
+  width: 30px;
+}
+
+.game::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to right,
+    #6aa84f80 0%, 
+    rgba(140, 103, 66, 0.5) 50%,   
+    rgba(165, 198, 57, 0.5) 100%   
+  );
+  opacity: 0;
+  transition: opacity 500ms ease;
+}
+
+.game:hover::before {
+  opacity: 1;
+}
+
+.beta{
+  position:absolute;
+  width: 25px;
+}
+
+.socialMediaLogo {
+  width: 22px;
+}
+
+.link {
+  align-items: center;
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  border-radius: 15px;
+  padding: 5px;
+  gap: 20vw;
+  border: #0000001e solid 3px;
+}
+
+a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.addres{
+  color: #ffffff3f;
+}
+
+.platform {
+  justify-content: flex-start;
+  display: flex;
+  width: 150px;
+  gap: 10px;
+}
+
+.link:hover {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  color: white;
+  transition: 500ms;
+}
+
+.link:hover .addres{
+  color: #fff;
+  transition: 500ms;
+}
+
+
+
+.tg:hover {
+  background: rgba(0, 136, 204, 0.5);
+}
+.dc:hover{
+  background: rgba(88, 101, 242, 0.5);
+}
+/* .game:hover{
+  cursor: pointer;
+  background: linear-gradient(
+    to right,
+    rgba(106, 168, 79, 0.5) 0%, 
+    rgba(140, 103, 66, 0.5) 50%,   
+    rgba(165, 198, 57, 0.5) 100%   
+  );
+} */
+.gh:hover {
+  background: rgba(13, 17, 23, 0.5);
+}
+
+/* @media only screen and (max-width: 600px) {
+  .link {
+    align-self: center;
+    gap: 20vw;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .link {
+    align-self: center;
+    gap: 20vw;
+  }
+} */

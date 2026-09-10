@@ -1,0 +1,14 @@
+.popup{
+    margin: 0 auto;
+    width: 95%;
+    max-width: 600px;
+    height: 75%;
+    background-color: #171717eb;
+    border: solid 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    animation: textColerd 8s linear infinite;
+}

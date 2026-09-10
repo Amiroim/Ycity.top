@@ -1,0 +1,8 @@
+.AppMain {
+  height: 100dvh;
+  display: flex;
+  flex-direction: column  ;
+  /* justify-content: flex-start; */
+  background-color: #171717;
+  color: #fff;
+}
