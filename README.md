@@ -4,7 +4,7 @@
 
 <p>
   <img src="https://img.shields.io/badge/Platform-Minecraft-brightgreen?style=for-the-badge" alt="Minecraft" />
-  <img src="https://img.shields.io/badge/Frontend-React-blue?style=for-the-badge" alt="Frontend" />
+  <img src="https://img.shields.io/badge/Frontend-React%20%7C%20SPA-blue?style=for-the-badge" alt="Frontend" />
   <img src="https://img.shields.io/badge/Backend-Express%20%7C%20REST%20API-orange?style=for-the-badge" alt="Backend" />
   <img src="https://img.shields.io/badge/Plugin-Java%20%7C%20WebSocket-purple?style=for-the-badge" alt="Plugin" />
   <img src="https://img.shields.io/badge/Stack-React%20%7C%20Express%20%7C%20Java-blue?style=for-the-badge" alt="Stack" />
